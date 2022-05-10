@@ -12,8 +12,8 @@ public class Product {
         ArrayList<Product> list = new ArrayList<Product>();
         list.add(gas);
         list.add(bagel);
-        totalCost(list);
         printProduct(list);
+        totalCost(list);
 
     }
 
