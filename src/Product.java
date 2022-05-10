@@ -1,9 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
-
-import javax.xml.crypto.Data;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Product {
 
@@ -35,6 +30,7 @@ public class Product {
             double totalCost = (product.productCost) * (product.productQuantity);
             totalCost2 = totalCost2 + totalCost;
         }
+        
         System.out.println("Total cost is " + totalCost2);
     }
 
@@ -43,6 +39,5 @@ public class Product {
             System.out.println(product.productName + " costs " + product.productCost + " and " + product.productQuantity + " units were purchased." );
         }
     }
-
 }
 
